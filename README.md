@@ -1,7 +1,6 @@
-#Hello, this is vishak and this document is for a step by step setup for Vim 
-#and CLI development environment.
+#Hello, this is vishak and this document is for a step by step setup for Vim and CLI development environment.
 
-First just clone the repository and replace(if it already exists then make a backup li#ke so, copy and paste this : mv ~/.vimrc ~/.vimrcbak) the .vimrc file then move the fi#le
+First just clone the repository and replace(if it already exists then make a backup like so, copy and paste this : mv ~/.vimrc ~/.vimrcbak) the .vimrc file then move the file
 
 Move the downloaded .vimrc file to the ~/ directory of the /.vim folder ( which ever you prefer).
 
