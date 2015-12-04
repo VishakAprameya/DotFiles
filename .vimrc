@@ -1,5 +1,5 @@
 " This vimrc is going to be configured" for its use in RUBY.
-set shell=/bin/bash
+set shell=/bin/zsh
 set nocompatible              " be iMproved, required
 filetype off                  " required
 set t_Co=256
@@ -25,6 +25,8 @@ Plugin 'jlanzarotta/bufexplorer'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'ervandew/supertab' 
 Plugin 'flazz/vim-colorschemes'
+Plugin 'bling/vim-airline'
+Plugin 'tpope/vim-fugitive'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -46,3 +48,6 @@ filetype plugin indent on    " required
  map <C-n> :NERDTreeToggle<CR>
 syntax enable
 colorscheme jellybeans
+let g:airline_powerline_fonts = 1
+set laststatus=2
+let g:Powerline_symbols = "fancy"
