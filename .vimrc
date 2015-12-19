@@ -27,8 +27,16 @@ Plugin 'ervandew/supertab'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
+Bundle 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-endwise'
+Plugin 'msanders/snipmate.vim'
+Plugin 'jiangmiao/auto-pairs'
+
+"This is for the pyhton plugin"
+Plugin 'klen/python-mode'
 
 " All of your Plugins must be added before the following line
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
@@ -51,3 +59,17 @@ colorscheme jellybeans
 let g:airline_powerline_fonts = 1
 set laststatus=2
 let g:Powerline_symbols = "fancy"
+set expandtab
+set tabstop=2 shiftwidth=2 softtabstop=2
+set autoindent
+
+"These customizations are for the Pymode plugin for python.""
+
+let g:pymode_syntax = 1
+let g:pymode_syntax_all = 1
+let g:pymode_syntax_indent_errors = g:pymode_syntax_all
+let g:pymode_syntax_space_errors = g:pymode_syntax_all
+let g:pymode_syntax_builtin_objs = g:pymode_syntax_all
+let g:pymode_syntax_builtin_types = g:pymode_syntax_all
+
+
